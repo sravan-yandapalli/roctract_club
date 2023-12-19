@@ -1,0 +1,237 @@
+*
+.header_items{
+    /* background-color: #008080; */
+    background-color: #D4AF37;
+    
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 10px 20px ;
+   
+    align-items: center;
+    position: fixed;
+    z-index:1;
+    width: 96.35%;
+    top:0%
+    
+    
+    
+}
+#img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 50px;
+    /* border: 2px solid;
+    border-color: rgb(255, 0, 0);
+    background-color:#333; */
+}
+h1{
+    color: aliceblue;
+    font-family: Sans-serif,serif;
+    user-select: none;
+    /* border: 2px solid;
+    border-color: rgb(255, 0, 0);
+    background-color:#333; */
+    
+}
+.menu{
+    overflow: hidden;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 75px;
+
+    /* border: 2px solid;
+    border-color: rgb(255, 0, 0);
+    background-color:#333; */
+}
+.menu a{
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: cursive;
+    padding: 10px 15px;
+    margin: 0px 5px 0px 0px;
+    /* border: 2px solid;
+    border-color: rgb(255, 0, 0); */
+    /* background-color:#333; */
+    float: left;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.menu a:hover{
+    background-color: #fff;
+    color: #000;
+}
+button{
+    padding: 10px 20px;
+    margin: 0px 40px 0px 30px;
+    /* border: 2px solid;
+    border-color: rgb(255, 0, 0); */
+    border-radius: 6px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(178, 0, 30);
+    color: #fff;
+}
+span{
+    color: rgb(1, 47, 47);
+    word-spacing: 0px;
+}
+#l{
+    background-color: rgb(178, 0, 30);
+    margin: 0px 0px 0px 30px;
+}
+
+
+
+
+
+.rac {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#rc {
+    font-family: 'Cursive', cursive;
+    color: #2e4053;
+}
+
+p {
+    font-size: 18px;
+    color: #34495e;
+    line-height: 1.6;
+}
+
+
+
+.hero-header {
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgb(1, 47, 47), rgb(0,128,128,0.6)), url("/images/rac1.jpeg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(1, 47, 47), rgb(0,128,128,0.6)), url("/images/rac1.jpeg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: 90px 0px 0px 0px;
+
+}
+#ov{
+    padding: 200px 0px 0px 0px ;
+}
+#r{
+   font-size: 40px;
+   margin: 15px 0px 0px 0px ;
+}
+h3{
+    font-weight: 200;
+    margin: 5px 0px 0px 0px ;
+}
+h4{
+    font-weight: 100;
+    font-size: xx-large;
+    margin: 25px 0px 0px 0px ;
+}
+h5{
+    font-size: 30px;
+    font-weight: 400;
+}
+#about{
+    text-align: center;
+    padding: 0px 0px ;
+}
+#wh{
+    padding: 0px 40px 0px 0px ;
+    margin: 10px 0px 0px 0px;
+}
+#au{
+    
+    margin: 10px 0px 0px 0px;
+    color: #000;
+    
+}
+
+/*7 focus*/
+.goal{
+    width: 100%;
+    text-align: center;  
+}
+#h1{
+    color: #333;
+    font-weight: bold;
+}
+body.card-container {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+  }
+
+  .card {
+    position:relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+  }
+
+  .card-content h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .card-content p {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: #666;
+  }
+

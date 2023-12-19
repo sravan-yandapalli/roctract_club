@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roctract</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_items">
+
+            <img id="img" src="/images/img.png" alt="img"/>
+            <h1>ROTARACT CLUB OF <span>VIZAG DIAMONDS</span></h1>
+            
+
+            <div class="menu">
+               
+                <nav>
+                    {{#if user}}
+                    <a href="#">Home</a>
+                    <a href="#">Blogs</a>
+                    <a href="#">Funds</a>
+                    <a href="https://www.rotary.org/en/get-involved/rotaract-clubs">About Us</a>
+                    <a href="/profile">Profile</a>
+                    <a id="l"href="/auth/logout">Logout</a>
+                    
+                </nav>
+            </div>
+                     {{else}}
+                 <a href="/login">
+                    <button type="button">Join Us</button>
+                  </a>
+                  {{/if}}
+        </div>
+    </header>
+
+
+ <section class='hero-header'>
+        <div id="ov"><h1 id="r">ROTARACT CLUB OF VIZAG DIAMONDS</h1>
+        <h3>(Sponsored By Rotary Club Of Vizag Diamonds)</h3>
+        <h3>Zonal-1|RID 3020</h3>
+        <h4>53 Years Of Changing Lives</h4>
+        <h5>Self Development. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fellowship Through Service.</h5>
+        </div>
+    </section>
+
+    <div id="about">
+    <p id="wh"> <img id="img" src="/images/rotary-wheel.png" alt="rot"></p>
+    <a href="#">learn more</a>
+    <h1 id="au">About Us</h1>
+    <p>Rotaract clubs were founded in 1968 by Rotary International, a worldwide association of service-minded professional leaders. Rotaract clubs bring together people of ages 18-30 to exchange ideas with leaders in the community, develop leadership and professional skills, and have fun through service. Today there are over 10,904 Rotary-supported Rotaract clubs with more than 250,792 members in some 184 countries around the world. Rotaract is the collegiate level of Rotary International and related to the Interact Club from high school. Rotaract members decide how to organize and run their clubs, manage their own funds, and plan and carry out activities and service projects. Rotary club sponsors offer guidance and support and work with your club as partners in service.<br>
+     <br>Here at Rotaract Club Of Vizag Diamonds, We leave no stone unturned in serving the society. We are a group of young adults solving real time problems with a great deal of commitment and responsibility. Rotaract Club Of Vizag Diamonds has been in action . We invest passion, energy, time, and intelligence to achieve our goals. We often collaborate with other clubs for projects that intersect with our goals in serving the society.</p>
+    </div>
+
+   <hr >
+
+
+
+<div class="goal">
+    <h1 id="h1">Our Goal</h1>
+    <p>We have 7 areas of focus for the better future of the world...</p>    
+</div>
+   <div class="card-container">
+
+    <div class="card">
+    <img src="/images/peace.jpeg" alt="Card Image">
+    <div class="card-content">
+      <h2>Promoting Peace</h2>
+      <p>Promoting peace, preventing conflicts, and resolving existing conflicts through various initiatives.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/images/fighting_disease.jpg" alt="Card Image">
+    <div class="card-content">
+      <h2>Fighting Disease</h2>
+      <p>Improving health by preventing and treating diseases, supporting immunization, and enhancing healthcare systems</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/images/clean.jpeg" alt="Card Image">
+    <div class="card-content">
+      <h2>Providing Clean Water</h2>
+      <p>Ensuring access to clean water, promoting sanitation, and educating communities about hygiene.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/images/mother.jpeg" alt="Card Image">
+    <div class="card-content">
+      <h2>Saving Mothers and Children</h2>
+      <p>Enhancing the health and well-being of mothers and children through healthcare interventions and support.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/images/edu.jpg" alt="Card Image">
+    <div class="card-content">
+      <h2>Supporting Education</h2>
+      <p>Increasing access to quality education and promoting literacy to empower individuals and communities.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/images/eco.jpg" alt="Card Image">
+    <div class="card-content">
+      <h2>Economic and Community Development</h2>
+      <p>Supporting projects that foster economic growth, community development, and sustainable livelihoods.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/images/green.jpg" alt="Card Image">
+    <div class="card-content">
+      <h2>Supporthing the Environment</h2>
+      <p>Emphasizing initiatives that strengthen community resilience, economic stability, and sustainable development.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div>
+<script>
+    // JavaScript to dynamically generate profiles
+    document.addEventListener("DOMContentLoaded", function () {
+        var profilesContainer = document.getElementById("profiles-container");
+
+        for (var i = 1; i <= 30; i++) {
+            var profileContainer = document.createElement("div");
+            profileContainer.className = "profile-container";
+
+            var profileIcon = document.createElement("div");
+            profileIcon.className = "profile-icon";
+            profileIcon.textContent = String.fromCharCode(64 + i);
+
+            var nameContainer = document.createElement("div");
+            nameContainer.className = "name-container";
+
+            var firstName = document.createElement("div");
+            firstName.className = "first-name";
+            firstName.textContent = "John";
+
+            var lastName = document.createElement("div");
+            lastName.className = "last-name";
+            lastName.textContent = "Doe";
+
+            nameContainer.appendChild(firstName);
+            nameContainer.appendChild(lastName);
+
+            profileContainer.appendChild(profileIcon);
+            profileContainer.appendChild(nameContainer);
+
+            profilesContainer.appendChild(profileContainer);
+        }
+    });
+</script>
+</div>
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>
