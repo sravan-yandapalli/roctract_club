@@ -8,7 +8,7 @@ const pool = new Pool({
   host: process.env.DATABASE_HOST,
   database: process.env.DATABASE,
   password: process.env.DATABASE_PASS,
-  port:  5432,
+  port:  process.env.DATABASE_PORT,
 });
 
 exports.login = async (req, res) => {
