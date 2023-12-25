@@ -1,3 +1,6 @@
+ini_set('display_errors', 'on');
+error_reporting(E_ALL);
+
 const express = require("express");
 const router = express.Router();
 const userController = require("../controllers/users");
