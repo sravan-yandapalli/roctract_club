@@ -9,6 +9,7 @@ const pool = new Pool({
   database: process.env.DATABASE,
   password: process.env.DATABASE_PASS,
   port:  process.env.DATABASE_PORT,
+  ssl: true
 });
 
 exports.login = async (req, res) => {
