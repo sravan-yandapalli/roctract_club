@@ -44,7 +44,4 @@ hbs.registerPartials(partialsPath);
 app.use('/',require("./routes/pages"));
 app.use('/auth',require("./routes/auth"));
 
-app.listen(
-{
-  console.log("server started at www.racvizagdiamonds.online port");
-}); 
+
