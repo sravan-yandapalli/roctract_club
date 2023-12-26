@@ -4,7 +4,9 @@
             flex-direction: column;
             align-items: flex-start;
         }
-
+         .hero-header{
+            display:none setting;
+        }
         #img {
             margin: 0px 0px 0px 0px;
             padding:0px 0px 0px 30px; 
