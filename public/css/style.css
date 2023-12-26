@@ -1,4 +1,61 @@
 *
+@media screen and (max-width: 600px) {
+            .header_items {
+                padding: 10px;
+            }
+            #img {
+                margin: 0;
+            }
+            h1 {
+                font-size: 18px;
+                margin: 0;
+            }
+            .menu {
+                margin: 0;
+            }
+            .menu a {
+                padding: 10px 8px;
+            }
+            button {
+                margin: 0;
+            }
+            #ov {
+                padding: 100px 10px 0 10px;
+            }
+            #r {
+                font-size: 30px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            h4 {
+                font-size: 20px;
+            }
+            h5 {
+                font-size: 16px;
+            }
+            #about p {
+                font-size: 14px;
+            }
+            .goal h1 {
+                font-size: 24px;
+            }
+            .card-container {
+                gap: 10px;
+            }
+            .card {
+                width: 100%;
+            }
+            .card img {
+                height: 200px; /* Adjust as needed */
+            }
+            .card-content h2 {
+                font-size: 16px;
+            }
+            .card-content p {
+                font-size: 14px;
+            }
+        }
 .header_items{
     /* background-color: #008080; */
     background-color: #D4AF37;
