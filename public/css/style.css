@@ -5,12 +5,12 @@
             align-items: flex-start;
         }
         .hero-header {
-            height: 400px;
-            width: 50%;/* Adjust the height for smaller screens */
+            height: 300px;
+            width: 300px;/* Adjust the height for smaller screens */
         }
 
         #img {
-            margin: 0px 0 0 50px;
+            margin: 0px -50px 0px 0px;
             padding:0px 0px 0px 0px; 
         }
 
@@ -20,7 +20,7 @@
         }
 
         .menu {
-            margin: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 20px;
         }
 
         .menu a {
@@ -36,7 +36,7 @@
 
         #about {
             padding: 0;
-            margin: = 0px 0px 0px 30px;
+            margin: = 0px 0px 0px 0px;
         }
 
         #wh {
