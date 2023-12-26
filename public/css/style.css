@@ -5,6 +5,9 @@
             flex-direction: column;
             align-items: flex-start;
         }
+        .hero-header {
+            height: 300px; /* Adjust the height for smaller screens */
+        }
 
         #img {
             margin: 10px 0 0 10px;
