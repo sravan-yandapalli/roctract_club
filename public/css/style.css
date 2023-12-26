@@ -5,7 +5,8 @@
             align-items: flex-start;
         }
          .hero-header{
-            display: none;
+    background: linear-gradient(rgb(1, 47, 47), rgb(0,128,128,0.6)), url("/images/sg.jpeg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(1, 47, 47), rgb(0,128,128,0.6)), url("/images/sg.jpeg"); 
         }
         #img {
             margin: 0px 0px 0px 0px;
