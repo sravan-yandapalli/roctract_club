@@ -21,7 +21,8 @@
         }
 
         .menu {
-            margin: 0px 0px 0px 20px;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 20px;
         }
 
         .menu a {
