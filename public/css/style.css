@@ -5,11 +5,11 @@
             align-items: flex-start;
         }
          .hero-header{
-            display:none setting;
+            display: none;
         }
         #img {
             margin: 0px 0px 0px 0px;
-            padding:0px 40px 0px 0px; 
+            padding:0px 50px 0px 0px; 
         }
 
         h1 {
@@ -19,7 +19,7 @@
 
         .menu {
             margin: 0px 0px 0px 0px;
-            padding: 0px 0px 0px 20px;
+            padding: 0px 30px 0px 20px;
         }
 
         .menu a {
